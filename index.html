@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mafaldas Arbete</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1><img src="images/logo.png" alt="logo">| ABC</h1>
+        <nav id="desktopNavbar">
+            <button class="nav-button">Hem</button>
+            <button class="nav-button">Nyheter</button>
+            <button class="nav-button">Sök</button>
+        </nav>
+    </header>
+    <main>
+        <section id="section1">
+            <h2>Min sida</h2>
+            <h3>Eget utrymme</h3>
+            <div class="container">
+                <div class="icon-wrapper">
+                    <img class="icon" src="images/folder-icon.png" alt="Folder Icon">
+                </div>
+                <div class="text">Manus</div>
+            </div>
+            <div class="container">
+                <div class="icon-wrapper">
+                    <img class="icon" src="images/folder-icon.png" alt="Folder Icon">
+                </div>
+                <div class="text">Anteckningar</div>
+            </div>     
+        </section>
+        <section id="section1">
+            <h3>Redaktioner</h3>
+            <div class="container">
+                <div class="icon-wrapper">
+                    <img class="icon" src="images/add-icon.png" alt="Add Icon">
+                </div>
+                <div class="text">Välj redaktion</div>
+            </div>      
+        </section>
+        <button id="newButton">
+                        <img src="images/white-add.png" alt="White Add Icon" class="button-icon">
+        </button>
+    </main>
+    <nav id="mobileNavbar">
+        <button class="nav-button"><img src="images/notifications-icon.png" alt="News"></button>
+        <button class="nav-button"><img src="images/home-icon.png" alt="Home"></button>
+        <button class="nav-button"><img src="images/search-icon.png" alt="Search"></button>
+    </nav>
+
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <div class="popup-header">Nytt manus</div>
+            <div class="popup-description">Ge det nya manuset ett namn</div>
+            <div class="popup-input-container">
+                <input type="text" id="manusName" placeholder="Namlöst manus">
+            </div>
+            <div class="popup-buttons">
+                <button id="cancelButton" class="popup-button cancel-button">Avbryt</button>
+                <button id="createButton" class="popup-button create-button">Skapa</button>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
